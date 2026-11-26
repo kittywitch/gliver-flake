@@ -1,5 +1,22 @@
 {
   "nodes": {
+    "gliver": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1794480875,
+        "narHash": "sha256-V2nIDBuv6aF3YqK3CPoBYPa2ImEerwrswQ7a/vdySqo=",
+        "ref": "master",
+        "rev": "ff31171b9c1e89fe2a602ec9d8f603d274adc549",
+        "revCount": 365,
+        "type": "git",
+        "url": "https://codeberg.org/ebeem/gliver.git"
+      },
+      "original": {
+        "ref": "master",
+        "type": "git",
+        "url": "https://codeberg.org/ebeem/gliver.git"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1795371335,
@@ -15,6 +32,7 @@
     },
     "root": {
       "inputs": {
+        "gliver": "gliver",
         "nixpkgs": "nixpkgs"
       }
     }
